@@ -1,0 +1,92 @@
+PODS:
+  - AssetProfile (0.1):
+    - CandleChart
+    - Domain
+    - Extensions
+    - MessariAPI
+    - RxCocoa
+    - RxSwift
+    - Stylesheet
+  - AssetsList (0.1):
+    - AssetProfile
+    - Common
+    - Domain
+    - Extensions
+    - MessariAPI
+    - RxSwift
+    - Stylesheet
+  - CandleChart (0.1):
+    - Common
+    - Domain
+    - MessariAPI
+    - RxSwift
+    - Stylesheet
+  - Common (0.1):
+    - Domain
+    - Stylesheet
+  - Domain (0.1)
+  - Extensions (0.1)
+  - MessariAPI (0.1):
+    - Domain
+    - RxCocoa
+    - RxSwift
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - Stylesheet (0.1)
+
+DEPENDENCIES:
+  - AssetProfile (from `./SDK/AssetProfile`)
+  - AssetsList (from `./SDK/AssetsList`)
+  - CandleChart (from `./SDK/CandleChart`)
+  - Common (from `./SDK/Common`)
+  - Domain (from `./SDK/Domain`)
+  - Extensions (from `./SDK/Extensions`)
+  - MessariAPI (from `./SDK/MessariAPI`)
+  - RxCocoa (= 6.5.0)
+  - RxSwift (= 6.5.0)
+  - Stylesheet (from `./SDK/Stylesheet`)
+
+SPEC REPOS:
+  trunk:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  AssetProfile:
+    :path: "./SDK/AssetProfile"
+  AssetsList:
+    :path: "./SDK/AssetsList"
+  CandleChart:
+    :path: "./SDK/CandleChart"
+  Common:
+    :path: "./SDK/Common"
+  Domain:
+    :path: "./SDK/Domain"
+  Extensions:
+    :path: "./SDK/Extensions"
+  MessariAPI:
+    :path: "./SDK/MessariAPI"
+  Stylesheet:
+    :path: "./SDK/Stylesheet"
+
+SPEC CHECKSUMS:
+  AssetProfile: 661c82cc3180aa5930fbea50c997defc7f3ffe39
+  AssetsList: be4d4b24c23f2d2b96f9d3e7304dd9cd81bbcf14
+  CandleChart: 844adee00e26d0d4c5e1d8a79f744bfb74f45e5c
+  Common: a2f32047a80a167a4fafe179be7c04a9108c5ce7
+  Domain: 18053d9cfb460e7403d3e67fa39c2b0caf95225a
+  Extensions: 8d6b6f521a8d2d19f783f1edb4abf492a4c03027
+  MessariAPI: 4b72008e14a8e4ed2d02821e86b1b0309e1dbb78
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  Stylesheet: 8072b399389baf21c955e482009df01704ab2ecf
+
+PODFILE CHECKSUM: a0f894cbc72704eb01d3f55735d1908f92b9c6dd
+
+COCOAPODS: 1.11.0
